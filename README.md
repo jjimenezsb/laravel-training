@@ -25,11 +25,14 @@
 
 5. Setup the root folder for the Virtual Host and the permissions:
 
-```sudo nano /opt/lampp/etc/extra/httpd-vhosts.conf ```
+```
+sudo nano /opt/lampp/etc/extra/httpd-vhosts.conf 
+```
 
 For example:
 
-```<VirtualHost *:80>
+```
+    <VirtualHost *:80>
        DocumentRoot "/home/jjimenez/Documents/Training/laravel-training/trainingap$
        ServerName laravel.local.site
        <Directory "/home/jjimenez/Documents/Training/laravel-training/trainingapp/$
@@ -54,4 +57,4 @@ For example:
 
 References:
 
-[Vritual Host setup](https://www.youtube.com/watch?v=2UbpmSNr48c)
+- [Virtual Host setup](https://www.youtube.com/watch?v=2UbpmSNr48c)
